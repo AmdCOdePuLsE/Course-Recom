@@ -19,7 +19,7 @@ export default function Dashboard(){
   const email = session?.user?.email
   const [collapsed, setCollapsed] = useState(false)
   const [active, setActive] = useState('overview')
-  const [profile, setProfile] = useState({ id:'', email:'', name:'', avatar_url:'', role:'student', current_year:1, gpas:[], career_goal:'', learning_style:'Visual', interests:[] })
+  const [profile, setProfile] = useState({ id:'', email:'', name:'', avatar_url:'', role:'student', current_year:1, gpas:[], gpa:'', career_goal:'', learning_style:'Visual', interests:[] })
   const [saving, setSaving] = useState(false)
   const [students, setStudents] = useState([])
   const [history, setHistory] = useState([])
@@ -56,6 +56,7 @@ export default function Dashboard(){
             role: localRole, 
             current_year: overrides.current_year || 1, 
             gpas: overrides.gpas || [], 
+            gpa: overrides.gpa || '',
             career_goal: overrides.career_goal || '', 
             learning_style: overrides.learning_style || 'Visual', 
             interests: overrides.interests || [] 
@@ -69,6 +70,7 @@ export default function Dashboard(){
             role: data.role || localRole, 
             current_year: overrides.current_year || data.current_year || 1, 
             gpas: overrides.gpas || data.gpas || [], 
+            gpa: overrides.gpa || data.gpa || '',
             career_goal: overrides.career_goal || data.career_goal || '', 
             learning_style: overrides.learning_style || data.learning_style || 'Visual', 
             interests: overrides.interests || data.interests || [] 
@@ -87,6 +89,7 @@ export default function Dashboard(){
           role: localRole, 
           current_year: overrides.current_year || 1, 
           gpas: overrides.gpas || [], 
+          gpa: overrides.gpa || '',
           career_goal: overrides.career_goal || '', 
           learning_style: overrides.learning_style || 'Visual', 
           interests: overrides.interests || [] 
@@ -120,6 +123,7 @@ export default function Dashboard(){
         avatar_url: profile.avatar_url, 
         current_year: profile.current_year, 
         gpas: profile.gpas, 
+        gpa: profile.gpa,
         career_goal: profile.career_goal, 
         learning_style: profile.learning_style, 
         interests: profile.interests 
@@ -135,6 +139,7 @@ export default function Dashboard(){
           role: profile.role, 
           current_year: profile.current_year, 
           gpas: profile.gpas, 
+          gpa: profile.gpa,
           career_goal: profile.career_goal, 
           learning_style: profile.learning_style, 
           interests: profile.interests 
@@ -515,6 +520,8 @@ export default function Dashboard(){
                   </div>
                   <label className="block text-sm font-medium mt-3">Career Goal</label>
                   <input value={profile.career_goal} onChange={e=>setProfile(p=>({...p, career_goal:e.target.value}))} className="w-full px-3 py-2 rounded border bg-white dark:bg-gray-900" />
+                  <label className="block text-sm font-medium mt-3">GPA</label>
+                  <input type="number" min="0" max="10" step="0.01" value={profile.gpa} onChange={e=>setProfile(p=>({...p, gpa:e.target.value}))} className="w-full px-3 py-2 rounded border bg-white dark:bg-gray-900" />
                   <label className="block text-sm font-medium mt-3">Interests</label>
                   <div className="flex flex-wrap gap-2">
                     {['Data','ML','AI','Web','Cloud','Security','Networks','Databases','Algorithms','CV','NLP'].map(t => (
