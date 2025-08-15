@@ -1,11 +1,18 @@
 import { Router } from 'express'
-import { readFileSync, writeFileSync, existsSync } from 'fs'
-import { join } from 'path'
+import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs'
+import { join, dirname } from 'path'
+import { fileURLToPath } from 'url'
 import jwt from 'jsonwebtoken'
 import { CONFIG } from '../config.js'
 import { getSupabase } from '../supabase.js'
 
-const HISTORY_PATH = join(process.cwd(), 'data', 'history.json')
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = dirname(__filename)
+const HISTORY_PATH = join(__dirname, '..', '..', 'data', 'history.json')
+const DATA_DIR = join(__dirname, '..', '..', 'data')
+
+// Ensure data directory exists
+if (!existsSync(DATA_DIR)) mkdirSync(DATA_DIR, { recursive: true })
 if (!existsSync(HISTORY_PATH)) writeFileSync(HISTORY_PATH, '{}')
 
 const router = Router()
