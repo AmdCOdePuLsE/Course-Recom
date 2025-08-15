@@ -30,6 +30,8 @@ export default function Dashboard(){
   }, [])
 
   useEffect(() => {
+    // Collapse sidebar by default on small screens for better mobile experience
+    try { if (typeof window !== 'undefined' && window.innerWidth < 768) setCollapsed(true) } catch {}
     if (!userId) return
     ;(async () => {
       try {
@@ -167,10 +169,10 @@ export default function Dashboard(){
   }
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-      <div className="flex gap-4">
+    <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-4 sm:py-6">
+      <div className="flex flex-col md:flex-row gap-4">
         {/* Sidebar */}
-        <aside className={(collapsed? 'w-16':'w-64')+" transition-all duration-200 border rounded-lg h-[75vh] sticky top-24 bg-white/70 dark:bg-gray-900/70 border-gray-200 dark:border-gray-800"}>
+        <aside className={(collapsed? 'md:w-16':'md:w-64')+" w-full transition-all duration-200 border rounded-lg md:h-[75vh] h-auto md:sticky top-24 bg-white/70 dark:bg-gray-900/70 border-gray-200 dark:border-gray-800"}>
           <div className="p-4 flex items-center gap-3 border-b dark:border-gray-800">
             <img src={profile.avatar_url || `https://api.dicebear.com/9.x/initials/svg?seed=${encodeURIComponent(email||'U')}`} alt="avatar" className="w-10 h-10 rounded-full object-cover" />
             {!collapsed && (
@@ -293,7 +295,7 @@ export default function Dashboard(){
                   </div>
                   
                   {profile.gpas?.length > 0 ? (
-                    <div className="h-64">
+                    <div className="h-56 md:h-64 lg:h-72">
                       <ResponsiveContainer width="100%" height="100%">
                         <LineChart data={(profile.gpas||[]).map((g,i)=>({ 
                           sem: `Semester ${i+1}`, 
@@ -357,35 +359,6 @@ export default function Dashboard(){
                       </div>
                     </div>
                   )}
-                </div>
-
-                {/* Preferences & Profile Summary */}
-                <div className="space-y-6">
-                  {/* Career & Learning Preferences */}
-                  <div className="bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm p-6 rounded-xl border border-gray-200 dark:border-gray-800 shadow-lg">
-                    <h3 className="text-lg font-bold text-gray-900 dark:text-gray-100 mb-4 flex items-center gap-2">
-                      <span className="text-xl">🎯</span>
-                      Your Profile
-                    </h3>
-                    <div className="space-y-4">
-                      <div className="flex items-center justify-between p-3 bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-950/20 dark:to-indigo-950/20 rounded-lg">
-                        <div>
-                          <div className="text-sm font-medium text-blue-900 dark:text-blue-100">Career Goal</div>
-                          <div className="text-blue-700 dark:text-blue-300">{profile.career_goal || 'Not set'}</div>
-                        </div>
-                        <span className="text-xl">🚀</span>
-                      </div>
-                      
-                      <div className="flex items-center justify-between p-3 bg-gradient-to-r from-green-50 to-emerald-50 dark:from-green-950/20 dark:to-emerald-950/20 rounded-lg">
-                        <div>
-                          <div className="text-sm font-medium text-green-900 dark:text-green-100">Learning Style</div>
-                          <div className="text-green-700 dark:text-green-300">{profile.learning_style}</div>
-                        </div>
-                        <span className="text-xl">🧠</span>
-                      </div>
-                    </div>
-                  </div>
-
                   {/* Interests Cloud */}
                   <div className="bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm p-6 rounded-xl border border-gray-200 dark:border-gray-800 shadow-lg">
                     <h3 className="text-lg font-bold text-gray-900 dark:text-gray-100 mb-4 flex items-center gap-2">
