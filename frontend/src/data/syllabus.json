@@ -1,0 +1,197 @@
+{
+  "semesters": {
+    "1": {
+      "Core Subjects": [
+        { "code": "MAC01", "name": "Mathematics – I" },
+        { "code": "PHC01", "name": "Engineering Physics" },
+        { "code": "CYC01", "name": "Engineering Chemistry" },
+        { "code": "XEC01", "name": "Engineering Mechanics" },
+        { "code": "ESC01", "name": "Environmental Science" },
+        { "code": "XES51", "name": "Engineering Graphics" }
+      ],
+      "Laboratories": [
+        { "code": "HSS51", "name": "Professional Communication Laboratory" },
+        { "code": "PHS51", "name": "Physics Laboratory" },
+        { "code": "CYS51", "name": "Chemistry Laboratory" },
+        { "code": "WSS51", "name": "Workshop Practice" }
+      ],
+      "Electives": [],
+      "Co-Curricular Activities": [
+        { "code": "XXS51", "name": "Co-curricular Activities" }
+      ]
+    },
+    "2": {
+      "Core Subjects": [
+        { "code": "MAC02", "name": "Mathematics – II" },
+        { "code": "CSC01", "name": "Introduction to Computing" },
+        { "code": "ECC01", "name": "Basic Electronics" },
+        { "code": "EEC01", "name": "Electrical Technology" },
+        { "code": "BTC01", "name": "Life Science" },
+        { "code": "XES52", "name": "Graphical Analysis using CAD" }
+      ],
+      "Laboratories": [
+        { "code": "CSS51", "name": "Computing Laboratory" },
+        { "code": "ECS51", "name": "Basic Electronics Laboratory" },
+        { "code": "EES51", "name": "Electrical Technology Laboratory" }
+      ],
+      "Electives": [],
+      "Co-Curricular Activities": [
+        { "code": "XXS52", "name": "Co-curricular Activities – II" }
+      ]
+    },
+    "3": {
+      "Core Subjects": [
+        { "code": "MAC331", "name": "Mathematics - III" },
+        { "code": "CSC301", "name": "Discrete Mathematics" },
+        { "code": "CSC302", "name": "Digital Logic Design" },
+        { "code": "CSC303", "name": "Data Structures and Algorithms" },
+        { "code": "PHC331", "name": "Physics of Semiconductor Devices" }
+      ],
+      "Laboratories": [
+        { "code": "PHS381", "name": "Semiconductor Devices Laboratory" },
+        { "code": "CSS351", "name": "Digital Logic Design Laboratory" },
+        { "code": "CSS352", "name": "Data Structures and Algorithms Laboratory" }
+      ],
+      "Electives": [],
+      "Co-Curricular Activities": [
+        { "code": "XXS381", "name": "Co-curricular Activities - III (Optional)" }
+      ]
+    },
+    "4": {
+      "Core Subjects": [
+        { "code": "CSC401", "name": "Computer Organization and Architecture" },
+        { "code": "CSC402", "name": "Theory of Computation" },
+        { "code": "CSC403", "name": "Design and Analysis of Algorithms" },
+        { "code": "CSC404", "name": "Object Oriented Programming" },
+        { "code": "CSC405", "name": "Signals and Systems" }
+      ],
+      "Laboratories": [
+        { "code": "CSS451", "name": "Computer Organization Laboratory" },
+        { "code": "CSS452", "name": "Object Oriented Programming Laboratory" },
+        { "code": "CSS453", "name": "Signal Processing Laboratory" }
+      ],
+      "Electives": [
+        { "code": "HSC431", "name": "Psychology (Open Elective - 1)" },
+        { "code": "CSO441", "name": "Data Structures and Algorithms" },
+        { "code": "CSO442", "name": "Object Oriented Technology" }
+      ],
+      "Co-Curricular Activities": [
+        { "code": "XXS481", "name": "Co-curricular Activities - IV (Optional)" }
+      ]
+    },
+    "5": {
+      "Core Subjects": [
+        { "code": "CSC501", "name": "Operating Systems" },
+        { "code": "CSC502", "name": "Database Management System" },
+        { "code": "CSC503", "name": "Compiler Design" },
+        { "code": "CSC504", "name": "Microcontroller based Systems" }
+      ],
+      "Laboratories": [
+        { "code": "CSS551", "name": "Design and Analysis of Algorithms Laboratory" },
+        { "code": "CSS552", "name": "Microcontroller based System Laboratory" },
+        { "code": "CSS553", "name": "Operating Systems Laboratory" }
+      ],
+      "Electives": [
+        { "code": "CSO541", "name": "Fundamentals of Algorithms" },
+        { "code": "CSO542", "name": "Database Management System" },
+        { "code": "CSO543", "name": "Computer Organization" },
+        { "code": "CSO544", "name": "Operating Systems" }
+      ],
+      "Co-Curricular Activities": [
+        { "code": "XXS581", "name": "Co-curricular Activities - V (Optional)" }
+      ]
+    },
+    "6": {
+      "Core Subjects": [
+        { "code": "HSC631", "name": "Economics and Management Accountancy" },
+        { "code": "CSC601", "name": "Software Engineering" },
+        { "code": "CSC602", "name": "Data Communication and Computer Networks" }
+      ],
+      "Laboratories": [
+        { "code": "CSS651", "name": "Compiler Laboratory" },
+        { "code": "CSS652", "name": "Data Communication and Computer Networks Laboratory" },
+        { "code": "CSS653", "name": "Database Management System Laboratory" }
+      ],
+      "Electives": [
+        { "code": "CSE611", "name": "Embedded System Design" },
+        { "code": "CSE612", "name": "System Software" },
+        { "code": "CSE613", "name": "Internet and Web Technologies" },
+        { "code": "CSE614", "name": "Advanced Computer Architecture" },
+        { "code": "CSE615", "name": "Optimization Techniques" },
+        { "code": "CSE616", "name": "Artificial Intelligence" },
+        { "code": "CSE617", "name": "Advanced Algorithms" },
+        { "code": "CSE618", "name": "Information Coding Theory" },
+        { "code": "CSE619", "name": "Computer Graphics" },
+        { "code": "CSE620", "name": "Game Theory and its Applications" },
+        { "code": "CSE621", "name": "Digital Systems Testing" },
+        { "code": "CSE622", "name": "Soft Computing" },
+        { "code": "CSE623", "name": "Advanced Database Systems" }
+      ],
+      "Co-Curricular Activities": [
+        { "code": "XXS681", "name": "Co-curricular Activities - VI (Optional)" }
+      ]
+    },
+    "7": {
+      "Core Subjects": [
+        { "code": "MSC731", "name": "Principles of Management" }
+      ],
+      "Laboratories": [
+        { "code": "CSS751", "name": "Software Engineering Laboratory" },
+        { "code": "CSS752", "name": "Modelling and Simulation Laboratory" },
+        { "code": "CSS754", "name": "Project - I" }
+      ],
+      "Electives": [
+        { "code": "CSE710", "name": "Machine Learning" },
+        { "code": "CSE711", "name": "Graph Theory" },
+        { "code": "CSE712", "name": "Electronic Design Automation" },
+        { "code": "CSE713", "name": "Natural Language Processing" },
+        { "code": "CSE714", "name": "Data Warehousing and Data Mining" },
+        { "code": "CSE715", "name": "Digital Image Processing" },
+        { "code": "CSE716", "name": "Data Analytics" },
+        { "code": "CSE717", "name": "Biometrics" },
+        { "code": "CSE718", "name": "Cryptography and Network Security" },
+        { "code": "CSE719", "name": "Multimedia Information Systems" },
+        { "code": "CSE720", "name": "Cellular Automata and its Application" },
+        { "code": "CSE721", "name": "Computational Geometry" },
+        { "code": "CSE722", "name": "Complex Network Theory" },
+        { "code": "CSE723", "name": "Pattern Recognition" },
+        { "code": "CSE724", "name": "Semantic Web Technology" },
+        { "code": "CSE725", "name": "Human Computer Interaction" },
+        { "code": "CSO741", "name": "Software Engineering" },
+        { "code": "CSO742", "name": "Multimedia Technologies" },
+        { "code": "CSO743", "name": "Computer Networks" }
+      ],
+      "Co-Curricular Activities": [
+        { "code": "CSS753", "name": "Vocational Training / Summer Internship and Seminar" }
+      ]
+    },
+    "8": {
+      "Core Subjects": [],
+      "Laboratories": [
+        { "code": "CSS851", "name": "Project - II" },
+        { "code": "CSS852", "name": "Project Seminar" },
+        { "code": "CSS853", "name": "Viva Voce" }
+      ],
+      "Electives": [
+        { "code": "CSE811", "name": "Distributed Systems" },
+        { "code": "CSE812", "name": "Computer Vision" },
+        { "code": "CSE813", "name": "Optical Networks" },
+        { "code": "CSE814", "name": "Internet of Things" },
+        { "code": "CSE815", "name": "Cloud Computing" },
+        { "code": "CSE816", "name": "Mobile Computing" },
+        { "code": "CSE817", "name": "Expert Systems" },
+        { "code": "CSO851", "name": "Machine Learning" },
+        { "code": "CSO852", "name": "Data Analytics" },
+        { "code": "CSO853", "name": "Distributed Computing" },
+        { "code": "CSO854", "name": "Game Theory and its Applications" },
+        { "code": "CSO855", "name": "Information Security" },
+        { "code": "CSO856", "name": "Optical Network" },
+        { "code": "CSO841", "name": "CAD for VLSI" },
+        { "code": "CSO842", "name": "Internet and Web Technologies" },
+        { "code": "CSO843", "name": "Soft Computing Techniques" },
+        { "code": "CSO844", "name": "Compiler Design" }
+      ],
+      "Co-Curricular Activities": []
+    }
+  }
+}

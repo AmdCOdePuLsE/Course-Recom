@@ -1,0 +1,5 @@
+student_id,algorithms,data_structures,os,db,networks,ml,ai,interest_ai,interest_data,career_goal,final_grade
+S001,8,7.5,7,7,6.5,0,0,1,0,Software Engineer,7.2
+S002,7,8,7.5,6.5,7,1,1,1,1,Data Scientist,8.1
+S003,6,6.5,6,6,6,1,0,0,1,ML Engineer,6.8
+S004,9,8.5,8,8,7.5,0,0,0,0,Researcher,8.4

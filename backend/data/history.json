@@ -1,0 +1,1055 @@
+{
+  "ext": [
+    {
+      "ts": 1755257373136,
+      "input": {
+        "interests": [
+          "ML"
+        ],
+        "careerGoal": "Software Engineer",
+        "learningStyle": "Visual",
+        "currentSemester": 2,
+        "previousGpas": [
+          9.89
+        ]
+      },
+      "results": {
+        "recommendations": [
+          {
+            "code": "CSE710",
+            "name": "Machine Learning",
+            "success_prob": 0.5355545426974494,
+            "risk": "Medium",
+            "reason": "This course matches 1 of your interests, suitable for your academic performance (avg GPA: 9.89).",
+            "explain": {
+              "interest_overlap": 1,
+              "career_alignment": false,
+              "avg_gpa": 9.89,
+              "current_semester": 2,
+              "learning_style_match": "Visual"
+            }
+          },
+          {
+            "code": "CSO851",
+            "name": "Machine Learning",
+            "success_prob": 0.49805410217268054,
+            "risk": "High",
+            "reason": "This course matches 1 of your interests, suitable for your academic performance (avg GPA: 9.89).",
+            "explain": {
+              "interest_overlap": 1,
+              "career_alignment": false,
+              "avg_gpa": 9.89,
+              "current_semester": 2,
+              "learning_style_match": "Visual"
+            }
+          },
+          {
+            "code": "CSE715",
+            "name": "Digital Image Processing",
+            "success_prob": 0.46195396874929373,
+            "risk": "High",
+            "reason": "This course suitable for your academic performance (avg GPA: 9.89).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 9.89,
+              "current_semester": 2,
+              "learning_style_match": "Visual"
+            }
+          },
+          {
+            "code": "CSE816",
+            "name": "Mobile Computing",
+            "success_prob": 0.44377260527791407,
+            "risk": "High",
+            "reason": "This course suitable for your academic performance (avg GPA: 9.89).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 9.89,
+              "current_semester": 2,
+              "learning_style_match": "Visual"
+            }
+          },
+          {
+            "code": "CSE725",
+            "name": "Human Computer Interaction",
+            "success_prob": 0.4422523442289802,
+            "risk": "High",
+            "reason": "This course suitable for your academic performance (avg GPA: 9.89).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 9.89,
+              "current_semester": 2,
+              "learning_style_match": "Visual"
+            }
+          },
+          {
+            "code": "CSE711",
+            "name": "Graph Theory",
+            "success_prob": 0.4422257855394625,
+            "risk": "High",
+            "reason": "This course suitable for your academic performance (avg GPA: 9.89).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 9.89,
+              "current_semester": 2,
+              "learning_style_match": "Visual"
+            }
+          },
+          {
+            "code": "CSE817",
+            "name": "Expert Systems",
+            "success_prob": 0.4387445739037259,
+            "risk": "High",
+            "reason": "This course suitable for your academic performance (avg GPA: 9.89).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 9.89,
+              "current_semester": 2,
+              "learning_style_match": "Visual"
+            }
+          },
+          {
+            "code": "CSE623",
+            "name": "Advanced Database Systems",
+            "success_prob": 0.4324143908314203,
+            "risk": "High",
+            "reason": "This course suitable for your academic performance (avg GPA: 9.89).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 9.89,
+              "current_semester": 2,
+              "learning_style_match": "Visual"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "ts": 1755257309841,
+      "input": {
+        "interests": [
+          "ML",
+          "AI",
+          "Cloud"
+        ],
+        "careerGoal": "ML Engineer",
+        "learningStyle": "Visual",
+        "currentSemester": 3,
+        "previousGpas": [
+          7.86,
+          8.88
+        ]
+      },
+      "results": {
+        "recommendations": [
+          {
+            "code": "CSE815",
+            "name": "Cloud Computing",
+            "success_prob": 0.705020231209601,
+            "risk": "Medium",
+            "reason": "This course matches 1 of your interests, suitable for your academic performance (avg GPA: 8.37).",
+            "explain": {
+              "interest_overlap": 1,
+              "career_alignment": false,
+              "avg_gpa": 8.37,
+              "current_semester": 3,
+              "learning_style_match": "Visual"
+            }
+          },
+          {
+            "code": "CSE710",
+            "name": "Machine Learning",
+            "success_prob": 0.6988419933493606,
+            "risk": "Medium",
+            "reason": "This course matches 1 of your interests, suitable for your academic performance (avg GPA: 8.37).",
+            "explain": {
+              "interest_overlap": 1,
+              "career_alignment": false,
+              "avg_gpa": 8.37,
+              "current_semester": 3,
+              "learning_style_match": "Visual"
+            }
+          },
+          {
+            "code": "CSO843",
+            "name": "Soft Computing Techniques",
+            "success_prob": 0.6945506914242083,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 8.37).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 8.37,
+              "current_semester": 3,
+              "learning_style_match": "Visual"
+            }
+          },
+          {
+            "code": "CSO543",
+            "name": "Computer Organization",
+            "success_prob": 0.6940485017054624,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 8.37).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 8.37,
+              "current_semester": 3,
+              "learning_style_match": "Visual"
+            }
+          },
+          {
+            "code": "CSE621",
+            "name": "Digital Systems Testing",
+            "success_prob": 0.6929580031243311,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 8.37).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 8.37,
+              "current_semester": 3,
+              "learning_style_match": "Visual"
+            }
+          },
+          {
+            "code": "CSO743",
+            "name": "Computer Networks",
+            "success_prob": 0.6929214100809211,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 8.37).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 8.37,
+              "current_semester": 3,
+              "learning_style_match": "Visual"
+            }
+          },
+          {
+            "code": "CSE724",
+            "name": "Semantic Web Technology",
+            "success_prob": 0.6923267275449306,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 8.37).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 8.37,
+              "current_semester": 3,
+              "learning_style_match": "Visual"
+            }
+          },
+          {
+            "code": "CSE622",
+            "name": "Soft Computing",
+            "success_prob": 0.6905478392549793,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 8.37).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 8.37,
+              "current_semester": 3,
+              "learning_style_match": "Visual"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "ts": 1755255762754,
+      "input": {
+        "interests": [
+          "ML"
+        ],
+        "careerGoal": "ML Engineer",
+        "learningStyle": "Visual",
+        "currentSemester": 3,
+        "previousGpas": [
+          7.89,
+          8.88
+        ]
+      },
+      "results": {
+        "recommendations": [
+          {
+            "code": "CSO851",
+            "name": "Machine Learning",
+            "success_prob": 0.7540716762780888,
+            "risk": null,
+            "reason": "This course matches 1 of your interests, suitable for your academic performance (avg GPA: 8.38).",
+            "explain": {
+              "interest_overlap": 1,
+              "career_alignment": false,
+              "avg_gpa": 8.38,
+              "current_semester": 3,
+              "learning_style_match": "Visual"
+            }
+          },
+          {
+            "code": "CSE710",
+            "name": "Machine Learning",
+            "success_prob": 0.7364491995375069,
+            "risk": "Medium",
+            "reason": "This course matches 1 of your interests, suitable for your academic performance (avg GPA: 8.38).",
+            "explain": {
+              "interest_overlap": 1,
+              "career_alignment": false,
+              "avg_gpa": 8.38,
+              "current_semester": 3,
+              "learning_style_match": "Visual"
+            }
+          },
+          {
+            "code": "CSO743",
+            "name": "Computer Networks",
+            "success_prob": 0.690541211459446,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 8.38).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 8.38,
+              "current_semester": 3,
+              "learning_style_match": "Visual"
+            }
+          },
+          {
+            "code": "CSE812",
+            "name": "Computer Vision",
+            "success_prob": 0.6878985619696323,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 8.38).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 8.38,
+              "current_semester": 3,
+              "learning_style_match": "Visual"
+            }
+          },
+          {
+            "code": "CSE615",
+            "name": "Optimization Techniques",
+            "success_prob": 0.6878858519549045,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 8.38).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 8.38,
+              "current_semester": 3,
+              "learning_style_match": "Visual"
+            }
+          },
+          {
+            "code": "CSE715",
+            "name": "Digital Image Processing",
+            "success_prob": 0.6841316799669301,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 8.38).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 8.38,
+              "current_semester": 3,
+              "learning_style_match": "Visual"
+            }
+          },
+          {
+            "code": "CSO843",
+            "name": "Soft Computing Techniques",
+            "success_prob": 0.6832804744282893,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 8.38).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 8.38,
+              "current_semester": 3,
+              "learning_style_match": "Visual"
+            }
+          },
+          {
+            "code": "CSO442",
+            "name": "Object Oriented Technology",
+            "success_prob": 0.6829756665505065,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 8.38).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 8.38,
+              "current_semester": 3,
+              "learning_style_match": "Visual"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "ts": 1755255758148,
+      "input": {
+        "interests": [
+          "ML"
+        ],
+        "careerGoal": "ML Engineer",
+        "learningStyle": "Read/Write",
+        "currentSemester": 3,
+        "previousGpas": [
+          7.89,
+          8.88
+        ]
+      },
+      "results": {
+        "recommendations": [
+          {
+            "code": "CSE710",
+            "name": "Machine Learning",
+            "success_prob": 0.7101830717546944,
+            "risk": "Medium",
+            "reason": "This course matches 1 of your interests, suitable for your academic performance (avg GPA: 8.38).",
+            "explain": {
+              "interest_overlap": 1,
+              "career_alignment": false,
+              "avg_gpa": 8.38,
+              "current_semester": 3,
+              "learning_style_match": "Read/Write"
+            }
+          },
+          {
+            "code": "CSE816",
+            "name": "Mobile Computing",
+            "success_prob": 0.6924928500968354,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 8.38).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 8.38,
+              "current_semester": 3,
+              "learning_style_match": "Read/Write"
+            }
+          },
+          {
+            "code": "CSO544",
+            "name": "Operating Systems",
+            "success_prob": 0.6891441818775303,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 8.38).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 8.38,
+              "current_semester": 3,
+              "learning_style_match": "Read/Write"
+            }
+          },
+          {
+            "code": "CSE617",
+            "name": "Advanced Algorithms",
+            "success_prob": 0.6882706001107299,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 8.38).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 8.38,
+              "current_semester": 3,
+              "learning_style_match": "Read/Write"
+            }
+          },
+          {
+            "code": "CSE711",
+            "name": "Graph Theory",
+            "success_prob": 0.6858401919124878,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 8.38).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 8.38,
+              "current_semester": 3,
+              "learning_style_match": "Read/Write"
+            }
+          },
+          {
+            "code": "CSO742",
+            "name": "Multimedia Technologies",
+            "success_prob": 0.685721016578692,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 8.38).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 8.38,
+              "current_semester": 3,
+              "learning_style_match": "Read/Write"
+            }
+          },
+          {
+            "code": "CSE621",
+            "name": "Digital Systems Testing",
+            "success_prob": 0.6846542234044901,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 8.38).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 8.38,
+              "current_semester": 3,
+              "learning_style_match": "Read/Write"
+            }
+          },
+          {
+            "code": "CSO851",
+            "name": "Machine Learning",
+            "success_prob": 0.6845303608369955,
+            "risk": "Medium",
+            "reason": "This course matches 1 of your interests, suitable for your academic performance (avg GPA: 8.38).",
+            "explain": {
+              "interest_overlap": 1,
+              "career_alignment": false,
+              "avg_gpa": 8.38,
+              "current_semester": 3,
+              "learning_style_match": "Read/Write"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "ts": 1755255645169,
+      "input": {
+        "interests": [
+          "ML"
+        ],
+        "careerGoal": "ML Engineer",
+        "learningStyle": "Kinesthetic",
+        "currentSemester": 3,
+        "previousGpas": [
+          7.89,
+          8.88
+        ]
+      },
+      "results": {
+        "recommendations": [
+          {
+            "code": "CSO851",
+            "name": "Machine Learning",
+            "success_prob": 0.7434373344522566,
+            "risk": "Medium",
+            "reason": "This course matches 1 of your interests, suitable for your academic performance (avg GPA: 8.38).",
+            "explain": {
+              "interest_overlap": 1,
+              "career_alignment": false,
+              "avg_gpa": 8.38,
+              "current_semester": 3,
+              "learning_style_match": "Kinesthetic"
+            }
+          },
+          {
+            "code": "CSE720",
+            "name": "Cellular Automata and its Application",
+            "success_prob": 0.692711287298729,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 8.38).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 8.38,
+              "current_semester": 3,
+              "learning_style_match": "Kinesthetic"
+            }
+          },
+          {
+            "code": "CSO544",
+            "name": "Operating Systems",
+            "success_prob": 0.6907282999610689,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 8.38).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 8.38,
+              "current_semester": 3,
+              "learning_style_match": "Kinesthetic"
+            }
+          },
+          {
+            "code": "CSE615",
+            "name": "Optimization Techniques",
+            "success_prob": 0.6875872757130703,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 8.38).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 8.38,
+              "current_semester": 3,
+              "learning_style_match": "Kinesthetic"
+            }
+          },
+          {
+            "code": "CSE621",
+            "name": "Digital Systems Testing",
+            "success_prob": 0.6872227470893076,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 8.38).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 8.38,
+              "current_semester": 3,
+              "learning_style_match": "Kinesthetic"
+            }
+          },
+          {
+            "code": "CSE710",
+            "name": "Machine Learning",
+            "success_prob": 0.6858201730887192,
+            "risk": "Medium",
+            "reason": "This course matches 1 of your interests, suitable for your academic performance (avg GPA: 8.38).",
+            "explain": {
+              "interest_overlap": 1,
+              "career_alignment": false,
+              "avg_gpa": 8.38,
+              "current_semester": 3,
+              "learning_style_match": "Kinesthetic"
+            }
+          },
+          {
+            "code": "CSE722",
+            "name": "Complex Network Theory",
+            "success_prob": 0.6853714634784497,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 8.38).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 8.38,
+              "current_semester": 3,
+              "learning_style_match": "Kinesthetic"
+            }
+          },
+          {
+            "code": "CSE716",
+            "name": "Data Analytics",
+            "success_prob": 0.6824619415174066,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 8.38).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 8.38,
+              "current_semester": 3,
+              "learning_style_match": "Kinesthetic"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "ts": 1755255216796,
+      "input": {
+        "interests": [
+          "Web"
+        ],
+        "careerGoal": "ML Engineer",
+        "learningStyle": "Visual",
+        "currentSemester": 3,
+        "previousGpas": [
+          8.85,
+          9
+        ]
+      },
+      "results": {
+        "recommendations": [
+          {
+            "code": "CSE724",
+            "name": "Semantic Web Technology",
+            "success_prob": 0.6868659827047573,
+            "risk": "Medium",
+            "reason": "This course matches 1 of your interests, suitable for your academic performance (avg GPA: 8.93).",
+            "explain": {
+              "interest_overlap": 1,
+              "career_alignment": false,
+              "avg_gpa": 8.93,
+              "current_semester": 3,
+              "learning_style_match": "Visual"
+            }
+          },
+          {
+            "code": "CSE613",
+            "name": "Internet and Web Technologies",
+            "success_prob": 0.665510515131109,
+            "risk": "Medium",
+            "reason": "This course matches 1 of your interests, suitable for your academic performance (avg GPA: 8.93).",
+            "explain": {
+              "interest_overlap": 1,
+              "career_alignment": false,
+              "avg_gpa": 8.93,
+              "current_semester": 3,
+              "learning_style_match": "Visual"
+            }
+          },
+          {
+            "code": "CSO544",
+            "name": "Operating Systems",
+            "success_prob": 0.6481086423668418,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 8.93).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 8.93,
+              "current_semester": 3,
+              "learning_style_match": "Visual"
+            }
+          },
+          {
+            "code": "CSE814",
+            "name": "Internet of Things",
+            "success_prob": 0.647455656057338,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 8.93).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 8.93,
+              "current_semester": 3,
+              "learning_style_match": "Visual"
+            }
+          },
+          {
+            "code": "CSE712",
+            "name": "Electronic Design Automation",
+            "success_prob": 0.6461083058505315,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 8.93).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 8.93,
+              "current_semester": 3,
+              "learning_style_match": "Visual"
+            }
+          },
+          {
+            "code": "CSE622",
+            "name": "Soft Computing",
+            "success_prob": 0.6376933850377736,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 8.93).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 8.93,
+              "current_semester": 3,
+              "learning_style_match": "Visual"
+            }
+          },
+          {
+            "code": "CSE619",
+            "name": "Computer Graphics",
+            "success_prob": 0.6363550424734234,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 8.93).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 8.93,
+              "current_semester": 3,
+              "learning_style_match": "Visual"
+            }
+          },
+          {
+            "code": "CSE812",
+            "name": "Computer Vision",
+            "success_prob": 0.6344048763293393,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 8.93).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 8.93,
+              "current_semester": 3,
+              "learning_style_match": "Visual"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "ts": 1755254538480,
+      "input": {
+        "interests": [
+          "AI",
+          "Cloud",
+          "ML"
+        ],
+        "careerGoal": "ML Engineer",
+        "learningStyle": "Kinesthetic",
+        "currentSemester": 2,
+        "previousGpas": [
+          9.8,
+          8.8
+        ]
+      },
+      "results": {
+        "recommendations": [
+          {
+            "code": "CSE710",
+            "name": "Machine Learning",
+            "success_prob": 0.6132085416096669,
+            "risk": "Medium",
+            "reason": "This course matches 1 of your interests, suitable for your academic performance (avg GPA: 9.30).",
+            "explain": {
+              "interest_overlap": 1,
+              "career_alignment": false,
+              "avg_gpa": 9.3,
+              "current_semester": 2,
+              "learning_style_match": "Kinesthetic"
+            }
+          },
+          {
+            "code": "CSO851",
+            "name": "Machine Learning",
+            "success_prob": 0.6088041264781167,
+            "risk": "Medium",
+            "reason": "This course matches 1 of your interests, suitable for your academic performance (avg GPA: 9.30).",
+            "explain": {
+              "interest_overlap": 1,
+              "career_alignment": false,
+              "avg_gpa": 9.3,
+              "current_semester": 2,
+              "learning_style_match": "Kinesthetic"
+            }
+          },
+          {
+            "code": "CSE616",
+            "name": "Artificial Intelligence",
+            "success_prob": 0.5991260196411634,
+            "risk": "Medium",
+            "reason": "This course matches 1 of your interests, suitable for your academic performance (avg GPA: 9.30).",
+            "explain": {
+              "interest_overlap": 1,
+              "career_alignment": false,
+              "avg_gpa": 9.3,
+              "current_semester": 2,
+              "learning_style_match": "Kinesthetic"
+            }
+          },
+          {
+            "code": "CSE815",
+            "name": "Cloud Computing",
+            "success_prob": 0.5923555902445884,
+            "risk": "Medium",
+            "reason": "This course matches 1 of your interests, suitable for your academic performance (avg GPA: 9.30).",
+            "explain": {
+              "interest_overlap": 1,
+              "career_alignment": false,
+              "avg_gpa": 9.3,
+              "current_semester": 2,
+              "learning_style_match": "Kinesthetic"
+            }
+          },
+          {
+            "code": "CSE611",
+            "name": "Embedded System Design",
+            "success_prob": 0.5908868341547983,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 9.30).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 9.3,
+              "current_semester": 2,
+              "learning_style_match": "Kinesthetic"
+            }
+          },
+          {
+            "code": "CSE720",
+            "name": "Cellular Automata and its Application",
+            "success_prob": 0.5881548660971065,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 9.30).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 9.3,
+              "current_semester": 2,
+              "learning_style_match": "Kinesthetic"
+            }
+          },
+          {
+            "code": "CSE622",
+            "name": "Soft Computing",
+            "success_prob": 0.5850984395597509,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 9.30).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 9.3,
+              "current_semester": 2,
+              "learning_style_match": "Kinesthetic"
+            }
+          },
+          {
+            "code": "CSO855",
+            "name": "Information Security",
+            "success_prob": 0.5841823163215295,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 9.30).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 9.3,
+              "current_semester": 2,
+              "learning_style_match": "Kinesthetic"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "ts": 1755254374675,
+      "input": {
+        "interests": [
+          "AI"
+        ],
+        "careerGoal": "Software Engineer",
+        "learningStyle": "Visual",
+        "currentSemester": 3,
+        "previousGpas": [
+          7.8,
+          8.8
+        ]
+      },
+      "results": {
+        "recommendations": [
+          {
+            "code": "CSE616",
+            "name": "Artificial Intelligence",
+            "success_prob": 0.7325537585537096,
+            "risk": "Medium",
+            "reason": "This course matches 1 of your interests, suitable for your academic performance (avg GPA: 8.30).",
+            "explain": {
+              "interest_overlap": 1,
+              "career_alignment": false,
+              "avg_gpa": 8.3,
+              "current_semester": 3,
+              "learning_style_match": "Visual"
+            }
+          },
+          {
+            "code": "CSE715",
+            "name": "Digital Image Processing",
+            "success_prob": 0.713544712448784,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 8.30).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 8.3,
+              "current_semester": 3,
+              "learning_style_match": "Visual"
+            }
+          },
+          {
+            "code": "CSE619",
+            "name": "Computer Graphics",
+            "success_prob": 0.7005927423625768,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 8.30).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 8.3,
+              "current_semester": 3,
+              "learning_style_match": "Visual"
+            }
+          },
+          {
+            "code": "CSO854",
+            "name": "Game Theory and its Applications",
+            "success_prob": 0.688061070158472,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 8.30).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 8.3,
+              "current_semester": 3,
+              "learning_style_match": "Visual"
+            }
+          },
+          {
+            "code": "CSO842",
+            "name": "Internet and Web Technologies",
+            "success_prob": 0.6875649633861665,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 8.30).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 8.3,
+              "current_semester": 3,
+              "learning_style_match": "Visual"
+            }
+          },
+          {
+            "code": "CSE717",
+            "name": "Biometrics",
+            "success_prob": 0.67979994274544,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 8.30).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 8.3,
+              "current_semester": 3,
+              "learning_style_match": "Visual"
+            }
+          },
+          {
+            "code": "CSO853",
+            "name": "Distributed Computing",
+            "success_prob": 0.679532605089892,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 8.30).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 8.3,
+              "current_semester": 3,
+              "learning_style_match": "Visual"
+            }
+          },
+          {
+            "code": "CSE723",
+            "name": "Pattern Recognition",
+            "success_prob": 0.6775346605027244,
+            "risk": "Medium",
+            "reason": "This course suitable for your academic performance (avg GPA: 8.30).",
+            "explain": {
+              "interest_overlap": 0,
+              "career_alignment": false,
+              "avg_gpa": 8.3,
+              "current_semester": 3,
+              "learning_style_match": "Visual"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
